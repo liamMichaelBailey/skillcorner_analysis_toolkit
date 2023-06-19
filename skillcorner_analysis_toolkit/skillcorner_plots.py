@@ -34,8 +34,11 @@ from matplotlib.ticker import EngFormatter
 import matplotlib.patheffects as pe
 from adjustText import adjust_text
 import seaborn as sns
-import os
+from pkg_resources import resource_filename
 
+filepath = resource_filename('skillcorner_analysis_toolkit', 'resources/Montserrat-VariableFont_wght.ttf')
+fm.fontManager.addfont(filepath)
+plt.rcParams["font.family"] = "Montserrat"
 
 def plot_bar_chart(df,
                    x_metric,
