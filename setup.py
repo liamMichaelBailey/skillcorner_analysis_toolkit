@@ -11,7 +11,7 @@ setup(
     packages=['skillcorner_analysis_toolkit',
               'skillcorner_analysis_toolkit/resources'],
 
-    package_data={'': ['Montserrat-VariableFont_wght.ttf']},
+    package_data={'': ['skillcorner_analysis_toolkit/resources/Montserrat-VariableFont_wght.ttf']},
     include_package_data=True,
     install_requires=['adjustText==0.7.3',
                       'matplotlib==3.7.0',
