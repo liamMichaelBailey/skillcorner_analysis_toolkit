@@ -1,0 +1,22 @@
+RUN_TYPES = ['cross_receiver_runs',
+             'runs_in_behind',
+             'runs_ahead_of_the_ball',
+             'support_runs',
+             'coming_short_runs',
+             'dropping_off_runs',
+             'pulling_half_space_runs',
+             'pulling_wide_runs',
+             'overlap_runs',
+             'underlap_runs']
+
+REQUEST_RUN_TYPES = ['all',
+                     'run_in_behind',
+                     'run_ahead_of_the_ball',
+                     'support_run',
+                     'pulling_wide_run',
+                     'coming_short_run',
+                     'underlap_run',
+                     'overlap_run',
+                     'dropping_off_run',
+                     'pulling_half_space_run',
+                     'cross_receiver_run']
