@@ -8,7 +8,8 @@ setup(
     author='Liam Michael Bailey',
     author_email='liam.bailey@skillcorner.com',
 
-    packages=['skillcorner_analysis_toolkit'],
+    packages=['skillcorner_analysis_toolkit',
+              'skillcorner_analysis_toolkit/resources'],
 
     package_data={'': ['Montserrat-VariableFont_wght.ttf']},
     include_package_data=True,
