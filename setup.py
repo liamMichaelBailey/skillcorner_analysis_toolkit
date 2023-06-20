@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='skillcorner_analysis_toolkit',
@@ -8,7 +8,7 @@ setup(
     author='Liam Michael Bailey',
     author_email='liam.bailey@skillcorner.com',
 
-    packages=['skillcorner_analysis_toolkit'],
+    packages=find_packages(include=['skillcorner_analysis_toolkit', 'skillcorner_analysis_toolkit.*']),
 
     package_data={'': ['*.ttf']},
 
