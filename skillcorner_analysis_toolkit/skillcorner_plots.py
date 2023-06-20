@@ -36,9 +36,24 @@ from adjustText import adjust_text
 import seaborn as sns
 from pkg_resources import resource_filename
 
-filepath = resource_filename('skillcorner_analysis_toolkit', 'resources/Montserrat-VariableFont_wght.ttf')
-fm.fontManager.addfont(filepath)
-plt.rcParams["font.family"] = "Montserrat"
+fonts = ['resources/Roboto/Roboto-Black.ttf',
+         'resources/Roboto/Roboto-BlackItalic.ttf',
+         'resources/Roboto/Roboto-Bold.ttf',
+         'resources/Roboto/Roboto-BoldItalic.ttf',
+         'resources/Roboto/Roboto-Italic.ttf',
+         'resources/Roboto/Roboto-Light.ttf',
+         'resources/Roboto/Roboto-LightItalic.ttf',
+         'resources/Roboto/Roboto-Medium.ttf',
+         'resources/Roboto/Roboto-MediumItalic.ttf',
+         'resources/Roboto/Roboto-Regular.ttf',
+         'resources/Roboto/Roboto-Thin.ttf',
+         'resources/Roboto/Roboto-ThinItalic.ttf']
+
+for f in fonts:
+    filepath = resource_filename('skillcorner_analysis_toolkit', f)
+    fm.fontManager.addfont(filepath)
+plt.rcParams["font.family"] = "Roboto"
+
 
 def plot_bar_chart(df,
                    x_metric,
