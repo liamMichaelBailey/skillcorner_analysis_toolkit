@@ -1,3 +1,4 @@
+![SkillCorner logo](./skillcorner_logo.png)
 # SkillCorner Analysis Toolkit
 
 The SkillCorner Analysis Toolkit is a Python package that provides functions to create standard visualizations frequently used by the SkillCorner data analysis team. It also includes functions to normalize SkillCorner data in various ways. This package is designed to streamline the data analysis process and facilitate the creation of insightful visualizations.
