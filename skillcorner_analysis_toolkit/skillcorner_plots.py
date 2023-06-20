@@ -36,7 +36,7 @@ from adjustText import adjust_text
 import seaborn as sns
 from pkg_resources import resource_filename
 
-filepath = resource_filename('skillcorner_analysis_toolkit/resources', 'Montserrat-VariableFont_wght.ttf')
+filepath = resource_filename('resources', 'Montserrat-VariableFont_wght.ttf')
 fm.fontManager.addfont(filepath)
 plt.rcParams["font.family"] = "Montserrat"
 
