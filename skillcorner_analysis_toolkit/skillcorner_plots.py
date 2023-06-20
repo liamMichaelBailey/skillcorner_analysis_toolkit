@@ -217,6 +217,7 @@ def plot_bar_chart(df,
         spine.set_zorder(10)
 
     plt.tight_layout()
+    plt.show()
 
     return fig, ax
 
@@ -478,6 +479,7 @@ def plot_scatter(df, x_metric, y_metric, z_metric=None, x_label=None, y_label=No
     ax.grid(axis='both', color='#0C1B37', alpha=0.2, lw=.5, linestyle='--', )
 
     plt.tight_layout()
+    plt.show()
 
     return fig, ax
 
@@ -718,5 +720,6 @@ def plot_swarm_violin(df,
     ax.legend().remove()
 
     plt.tight_layout()
+    plt.show()
 
     return fig, ax
