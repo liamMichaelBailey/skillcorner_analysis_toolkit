@@ -10,7 +10,7 @@ setup(
 
     packages=find_packages(include=['skillcorner_analysis_toolkit', 'skillcorner_analysis_toolkit.*']),
 
-    package_data={'': ['*.ttf']},
+    package_data={'skillcorner_analysis_toolkit': ['resources/Montserrat-VariableFont_wght.ttf']},
 
     include_package_data=True,
     install_requires=['adjustText==0.7.3',
