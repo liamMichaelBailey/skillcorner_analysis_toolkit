@@ -23,9 +23,9 @@ setup(
                                                    'resources/Roboto/Roboto-Thin.ttf',
                                                    'resources/Roboto/Roboto-ThinItalic.ttf']},
 
-include_package_data=True,
+    include_package_data=True,
     install_requires=['adjustText==0.7.3',
-                      'matplotlib==3.7.0',
+                      'matplotlib==3.7.2',
                       'numpy==1.24.2',
                       'pandas==1.5.3',
                       'seaborn==0.11.2'],
